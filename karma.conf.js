@@ -6,6 +6,8 @@ var conf = require('./gulp/conf');
 var _ = require('lodash');
 var wiredep = require('wiredep');
 
+// bug correction
+
 function listFiles() {
   var wiredepOptions = _.extend({}, conf.wiredep, {
     dependencies: true,
