@@ -19,6 +19,8 @@ function listFiles() {
     ]);
 }
 
+// feature 1
+
 module.exports = function(config) {
 
   var configuration = {

@@ -4,6 +4,7 @@
  *  because putting all here was really too long
  */
 
+// feature
 'use strict';
 
 var gulp = require('gulp');
@@ -19,6 +20,7 @@ wrench.readdirSyncRecursive('./gulp').filter(function(file) {
   require('./gulp/' + file);
 });
 
+//feature
 
 /**
  *  Default task clean temporaries directories and launch the
