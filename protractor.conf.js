@@ -25,3 +25,6 @@ exports.config = {
     defaultTimeoutInterval: 30000
   }
 };
+
+
+// last in protractor

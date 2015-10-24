@@ -2,6 +2,7 @@
  *  Welcome to your gulpfile!
  *  The gulp tasks are splitted in several files in the gulp directory
  *  because putting all here was really too long
+ * change in text
  */
 
 // feature
@@ -9,6 +10,8 @@
 
 var gulp = require('gulp');
 var wrench = require('wrench');
+
+// feature
 
 /**
  *  This will load all js or coffee files in the gulp directory
