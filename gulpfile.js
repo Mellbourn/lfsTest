@@ -21,7 +21,7 @@ wrench.readdirSyncRecursive('./gulp').filter(function(file) {
   require('./gulp/' + file);
 });
 
-// another bug
+// another bug...
 
 /**
  *  Default task clean temporaries directories and launch the
